@@ -42,7 +42,7 @@ class FocusTimer:
 
 if __name__ == "__main__":
     root = tk.Tk()
-    root.title("专注时钟")
+    root.title("专注时钟！！！！！！！！！！！！！！！！！！！！！！")
     
     focus_timer = FocusTimer(root, focus_minutes=25)
     
