@@ -6,7 +6,7 @@ class FocusTimer:
     def __init__(self, master, focus_minutes):
         self.master = master
         self.focus_minutes = focus_minutes
-        self.seconds_left = focus_minutes * 60
+        self.seconds_left = focus_minutes * 70
 
         self.label = tk.Label(master, text="")
         self.label.pack(pady=10)
