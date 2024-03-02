@@ -37,7 +37,7 @@ class FocusTimer:
             self.seconds_left -= 1
             self.timer_id = self.master.after(1000, self.countdown)
         else:
-            messagebox.showinfo("专注结束", "专注时间结束！！！")
+            messagebox.showinfo("专注结束", "专注时间结束！")
             self.stop_timer()
 
 if __name__ == "__main__":
