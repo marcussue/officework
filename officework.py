@@ -11,7 +11,7 @@ class FocusTimer:
         self.label = tk.Label(master, text="")
         self.label.pack(pady=10)
 
-        self.start_button = tk.Button(master, text="开始专注", command=self.start_timer)
+        self.start_button = tk.Button(master, text="开始专注!", command=self.start_timer)
         self.start_button.pack(pady=10)
 
         self.stop_button = tk.Button(master, text="停止专注", command=self.stop_timer)
